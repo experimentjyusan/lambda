@@ -1,4 +1,4 @@
-/*resource "aws_iam_policy" "lambda_policy" {
+resource "aws_iam_policy" "lambda_policy" {
   name        = "lambda-policy"
   description = "Policy for Lambda execution"
   
@@ -36,4 +36,4 @@ resource "aws_iam_policy" "lambda_logs_policy" {
       }
     ]
   })
-}*/
+}
